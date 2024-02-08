@@ -1,6 +1,6 @@
 Assignment
 
-#Create a To-Do List API
+Create a To-Do List API
 
 => Your task is to build a simple To-Do List API using Node.js,Express.js and sequelize. Users should be able to sign up, log in, and then perform CRUD (Create, Read, Update, Delete) operations on their own tasks. 
 
