@@ -7,10 +7,12 @@ const db = require('./config/db')
 
 const port = process.env.PORT 
 
+//Middlewares
 app.use(express.json())
 app.use('/api', userRoutes)
 app.use('/api', taskRoutes)
 
+//Test Case
 app.get('/',(req,res)=>{
     res.json({message : 'Hello World'})
 })
